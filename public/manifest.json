@@ -1,0 +1,23 @@
+{
+    "manifest_version": 3,
+    "name": "Verbo",
+    "version": "1.0",
+    "description": "Voice-Activated Quick Commands",
+    "action": {
+      "default_popup": "popup/Popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "background": {
+      "service_worker": "background/background.js"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "options_page": "options/Options.html"
+  }
+  
