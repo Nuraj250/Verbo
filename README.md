@@ -13,7 +13,7 @@
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/username/verbo.git
+    git clone https://github.com/Nuraj250/verbo.git
     cd verbo
     ```
 
